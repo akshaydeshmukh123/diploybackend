@@ -33,5 +33,5 @@ console.log("connected to the db")
         console.log(error)
 console.log("cannot connect to the database")
     }
-    console.log(`server is running on port ${process.env.url}`)
+    console.log(`server is running on port ${process.env.port}`)
 })
